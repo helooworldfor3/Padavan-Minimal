@@ -20,6 +20,9 @@ https://github.com/keke1023/Padavan
 推荐使用云编译脚本进行固件编译
 https://github.com/pmkol/Padavan-build
 
+NEWIFI3固件下载
+https://www.lanzouw.com/iOn6Vwcaati
+
 # Padavan
 基于hanwckf,chongshengB以及padavanonly的源码整合而来，支持kvr  
 编译方法同其他Padavan源码，主要特点如下：  
