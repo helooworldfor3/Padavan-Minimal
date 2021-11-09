@@ -17,6 +17,9 @@ wifi密码1234567890
 在原作者keke1023整合的固件版本上做了精简和DNS优化
 https://github.com/keke1023/Padavan
 
+推荐使用云编译脚本进行编译
+https://github.com/pmkol/Padavan-build/
+
 # Padavan
 基于hanwckf,chongshengB以及padavanonly的源码整合而来，支持kvr  
 编译方法同其他Padavan源码，主要特点如下：  
