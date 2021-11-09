@@ -15,12 +15,15 @@ wifi密码1234567890
 
 # Padavan-Minimal
 在原作者keke1023整合的固件版本上做了精简和DNS优化
+
 https://github.com/keke1023/Padavan
 
 推荐使用云编译脚本进行固件编译
+
 https://github.com/pmkol/Padavan-build
 
 NEWIFI3固件下载
+
 https://www.lanzouw.com/iOn6Vwcaati
 
 # Padavan
