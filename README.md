@@ -1,4 +1,8 @@
 # Padavan精简版固件，适合不爱折腾固件的用户
+固件默认wifi名称PDCN及PDCN_5G  
+wifi密码1234567890  
+管理地址192.168.123.1  
+管理账号密码都是admin 
 
 - 20211109更新
 >- 精简插件，仅保留路由器常用功能
@@ -6,12 +10,6 @@
 >- 优化科学上网插件中的DNS选项，加入对SmartDNS的支持
 >- 移除VPN界面选项
 >- 修复部分系统编译skipdbv2插件报错的问题
-
-  
-固件默认wifi名称PDCN及PDCN_5G  
-wifi密码1234567890  
-管理地址192.168.123.1  
-管理账号密码都是admin  
 
 NEWIFI3固件下载
 https://www.lanzouw.com/iOn6Vwcaati
