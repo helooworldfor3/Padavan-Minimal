@@ -6,14 +6,15 @@ wifi密码1234567890
 ***
 
 - 20211109更新
->- 精简插件，仅保留路由器常用功能
+>- 精简插件，仅保留路由器常用功能  
 （只精简了NEWIFI3的固件，其它版本固件请参考/trunk/configs/NEWIFI3.config中的插件选项）
 >- 优化科学上网插件中的DNS选项，加入对SmartDNS的支持
 >- 移除VPN界面选项
 >- 修复部分系统编译skipdbv2插件报错的问题
 
-NEWIFI3固件下载
+NEWIFI3固件下载  
 https://www.lanzouw.com/iOn6Vwcaati
+***
 
 # Padavan-Minimal
 在原作者keke1023整合的固件版本上做了精简和DNS优化  
@@ -169,5 +170,5 @@ fakeroot ./build_firmware_modify NEWIFI3
 ***
 
 ### 请参阅 ###
+- https://www.jianshu.com/p/c31b58728778
 - https://www.jianshu.com/p/6b8403cdea46
-
