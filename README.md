@@ -6,7 +6,7 @@ wifi密码1234567890
 ***
 
 NEWIFI3固件下载  
-https://www.lanzouw.com/iOn6Vwcaati
+https://www.lanzouw.com/i6pguwe3eud
 
 - 20211111更新
 >- 移除失效的定时重启选项，可在[系统管理>服务>调度任务]中设置定时重启
