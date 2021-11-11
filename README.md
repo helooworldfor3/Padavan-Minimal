@@ -5,15 +5,15 @@ wifi密码1234567890
 管理账号密码都是admin 
 ***
 
+NEWIFI3固件下载  
+https://www.lanzouw.com/iOn6Vwcaati
+
 - 20211109更新
 >- 精简插件，仅保留路由器常用功能  
 （只精简了NEWIFI3的固件，其它版本固件请参考/trunk/configs/NEWIFI3.config中的插件选项）
 >- 优化科学上网插件中的DNS选项，加入对SmartDNS的支持
 >- 移除VPN界面选项
 >- 修复部分系统编译skipdbv2插件报错的问题
-
-NEWIFI3固件下载  
-https://www.lanzouw.com/iOn6Vwcaati
 ***
 
 # Padavan-Minimal
