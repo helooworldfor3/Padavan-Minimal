@@ -12,7 +12,7 @@ https://www.lanzouw.com/iOn6Vwcaati
 >- 移除失效的定时重启选项，可在[系统管理>服务>调度任务]中设置定时重启
 ```shell
 #示例：
-#规则( 分 时 日 月 周  reboot )
+#分 时 日 月 周 reboot &
 #每天的三点半重启
 30 3 * * * reboot &
 #每星期一的三点半重启
