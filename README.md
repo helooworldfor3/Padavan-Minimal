@@ -8,6 +8,12 @@ wifi密码1234567890
 NEWIFI3固件下载  
 https://www.lanzouw.com/iOn6Vwcaati
 
+- 20211111更新
+>- 移除失效的定时重启选项，可在[系统管理>服务>调度任务]中设置定时重启
+规则示例：
+（分 时 日 月 周  reboot）
+30 3 * * * reboot &  #每天的三点半重启
+30 3 * * 1 reboot &  #每星期一的三点半重启
 - 20211109更新
 >- 精简插件，仅保留路由器常用功能  
 （只精简了NEWIFI3的固件，其它版本固件请参考/trunk/configs/NEWIFI3.config中的插件选项）
