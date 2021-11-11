@@ -603,6 +603,20 @@ function on_ttyd_link(){
                                             </td>
                                         </tr>
                                         <tr>
+                                            <th width="50%"><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,23,1);"><#TweaksWdg#></a></th>
+                                            <td>
+                                                <div class="main_itoggle">
+                                                    <div id="watchdog_cpu_on_of">
+                                                        <input type="checkbox" id="watchdog_cpu_fake" <% nvram_match_x("", "watchdog_cpu", "1", "value=1 checked"); %><% nvram_match_x("", "watchdog_cpu", "0", "value=0"); %>>
+                                                    </div>
+                                                </div>
+                                                <div style="position: absolute; margin-left: -10000px;">
+                                                    <input type="radio" name="watchdog_cpu" id="watchdog_cpu_1" class="input" value="1" <% nvram_match_x("", "watchdog_cpu", "1", "checked"); %>/><#checkbox_Yes#>
+                                                    <input type="radio" name="watchdog_cpu" id="watchdog_cpu_0" class="input" value="0" <% nvram_match_x("", "watchdog_cpu", "0", "checked"); %>/><#checkbox_No#>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
                                             <th><#Adm_Svc_crond#></th>
                                             <td>
                                                 <div class="main_itoggle">
@@ -621,20 +635,6 @@ function on_ttyd_link(){
                                                 <a href="javascript:spoiler_toggle('crond_crontabs')"><span><#Adm_Svc_crontabs#></span></a>
                                                 <div id="crond_crontabs" style="display:none;">
                                                     <textarea rows="8" wrap="off" spellcheck="false" maxlength="8192" class="span12" name="crontab.login" style="font-family:'Courier New'; font-size:12px;"><% nvram_dump("crontab.login",""); %></textarea>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th width="50%"><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,23,1);"><#TweaksWdg#></a></th>
-                                            <td>
-                                                <div class="main_itoggle">
-                                                    <div id="watchdog_cpu_on_of">
-                                                        <input type="checkbox" id="watchdog_cpu_fake" <% nvram_match_x("", "watchdog_cpu", "1", "value=1 checked"); %><% nvram_match_x("", "watchdog_cpu", "0", "value=0"); %>>
-                                                    </div>
-                                                </div>
-                                                <div style="position: absolute; margin-left: -10000px;">
-                                                    <input type="radio" name="watchdog_cpu" id="watchdog_cpu_1" class="input" value="1" <% nvram_match_x("", "watchdog_cpu", "1", "checked"); %>/><#checkbox_Yes#>
-                                                    <input type="radio" name="watchdog_cpu" id="watchdog_cpu_0" class="input" value="0" <% nvram_match_x("", "watchdog_cpu", "0", "checked"); %>/><#checkbox_No#>
                                                 </div>
                                             </td>
                                         </tr>
